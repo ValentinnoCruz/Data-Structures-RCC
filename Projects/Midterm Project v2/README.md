@@ -119,9 +119,7 @@ I tried to use clear windows function, but it seems somewhere is not so correct;
 | | <string,int >| map<string, int>value; | Game.h 33; |
 | | 	Iterator|	|map<string, int>::iterator iter;|	Game.h 36|
 | Vector	| <int>	| vector<int>score;	| Game.h 37|
-| Hash	| string—>int	| RSHash();
-| BPHash();
-| ELFHash();	| main.cpp 77-79|
+| Hash	| string—>int	| RSHash(); BPHash(); ELFHash();	| main.cpp 77-79|
 | AVL Tree	| Linked list	| Self Balance, Pre-order, In-orderk Post-order	| main.cpp 512-528|
 | Quick Sort	| int array[]	| void valueSort(); void quic Sort(int [], int, int); int partition(int [], int, int); void qSwap(int &, int &);	| Game.cpp 99-150 |
 
