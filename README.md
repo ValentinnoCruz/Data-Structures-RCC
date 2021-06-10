@@ -1,42 +1,25 @@
 ﻿
-# CSC 17c: C++ Data Structures
-This course is a 16-week class that uses web technology to provide you with a flexible learning option. An on-line class also gives you access to a wide range of information resources and allows you to study when it is most convenient for you. This type of class may be new to you. While you will enjoy greater flexibility in scheduling your study time, you will need to be self motivated and disciplined in setting your study schedule, completing course requirements, and exploring background resources. 
+# Hanoi Towers
+<![endif]--> This program is the game of Hanoi Towers a logic based game. Where the objective is to move all the disks off the leftmost tower to the rightmost tower. However you can not move a bigger disk onto a smaller disk. In order to do this you are given a spare pole to put disks onto. This game does keep track of your score by counting the number of moves it takes to completely move the tower.
 
-## Course Objectives
+## Instructions
+It is strongly recommended to run this project in netbeans external terminal since it has console colors. The game begins by asking how many disks you want to play with.
 
-1. Analyze and understand the use of data structures in the development of algorithms.
+You will then be asked if you want to go in guided mode, which will tell you the correct steps for a perfect game. It is not recommended if you have a large number of disks such as 64 unless you want to wait for a hundred years.
 
-2. Design and create C++ programs using stacks, trees, queues, lists and trees.
+The the game will then begin, and you will see the poles in a vertical layout with alphabetical names. The disks size are denoted by numbers, one being the smallest disk. It will then ask you to enter the character of the pole you want to move from and then where you want to move it. These can be uppercase or lowercase. Should you want to exit the game cleanly anytime during the game put z as the destination pole.
 
-3. Apply theoretical business, scientific, and mathematical concepts to write and execute computer programs in the C++ language using data structures.
-
-4. Analyze application requirements to identify data structures with matching capabilities.
+Once you win the game it will display your scores and will ask you if you want to play again
 
 
 ## Topics
-1 – Pointers, ADT’s
 
-2 – Classes
-
-3 – Classes/Algorithms/Templates
-
-4 – Lists
-
-5 – STL I
-
-6 – Stacks
-
-7 – Queues/Sets/Maps
-
-9 – Hashing Algorithms
-
-10 – Recursion
-
-11 – Sorting Algorithms
-
-12 – Binary Trees
-
-13 – Graph Algorithms
-
-14 – STL II
-
+|Covered Topics | Location|
+| :-: | :-: |
+| Map ( name data pair ) |	Game.h:32|
+| Set ( unduplicated list ) |	Game.h:28|
+| List|	Game.h:38|
+| Stack ( or a queue ) |	Used Queue|
+| Queue ( or a stack ) |	Game.h:39|
+| Algorithm ->Sorting |	Game.h:210|
+| Iterators |	Game.h:65, Game.h:67, Game.h:75|
