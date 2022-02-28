@@ -1,6 +1,6 @@
 ﻿
 # Hanoi Towers
-<![endif]--> This program is the game of Hanoi Towers a logic based game. Where the objective is to move all the disks off the leftmost tower to the rightmost tower. However you can not move a bigger disk onto a smaller disk. In order to do this you are given a spare pole to put disks onto. This game does keep track of your score by counting the number of moves it takes to completely move the tower.
+This program is the game of Hanoi Towers a logic based game. Where the objective is to move all the disks off the leftmost tower to the rightmost tower. However you can not move a bigger disk onto a smaller disk. In order to do this you are given a spare pole to put disks onto. This game does keep track of your score by counting the number of moves it takes to completely move the tower.
 
 ## Instructions
 It is strongly recommended to run this project in netbeans external terminal since it has console colors. The game begins by asking how many disks you want to play with.
